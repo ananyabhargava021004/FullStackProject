@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://onlinejudgeproject.vercel.app/"] ,
+  origin: ["http://localhost:5173", "https://onlinejudgeproject.vercel.app"] ,
   credentials: true
 }));
 app.use(express.json()); // for parsing application/json
